@@ -1,0 +1,109 @@
+body, html {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f8f9fa;
+  color: #222;
+}
+
+/* Header */
+.landing-header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #444;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(to bottom right, #5e60ce, #64dfdf);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background: #5e60ce;
+  color: #fff;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #5e60ce;
+  color: #5e60ce;
+}
+
+/* Summarizer */
+.summarizer-section {
+  background: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  margin: 1rem auto;
+  display: block;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.summary-box {
+  background: #f1f3f5;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex; align-items: center; justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.close-modal {
+  float: right;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

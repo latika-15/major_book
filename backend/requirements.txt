@@ -1,0 +1,10 @@
+flask
+flask-cors
+openai
+python-dotenv
+pymongo
+flask-pymongo
+PyPDF2
+PyMuPDF
+PyJWT
+bcrypt
